@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 65px;
 }
 
 @media (max-width: 992px) {
@@ -399,14 +399,14 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/backround\ tf.jpg") top center;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1840,4 +1840,22 @@ section {
   background: #3194db;
   color: #fff;
   text-decoration: none;
+}
+@media (max-width: 767px){
+  .titulli{
+    margin-left: 5%;
+
+  }
+  .paragrafi{
+    margin-left: 5%;
+  }
+}
+@media (max-width: 456px){
+  .titulli{
+    margin-left: 5%;
+
+  }
+  .paragrafi{
+    margin-left: 5%;
+  }
 }
